@@ -2,7 +2,7 @@ import { useState } from "react"
 import InputPanel from "./components/InputPanel"
 import OutputPanel from "./components/OutputPanel"
 
-const API = "http://localhost:8000"
+const API = "https://readme-genius-backend.onrender.com"
 
 export default function App() {
   const [markdown, setMarkdown] = useState("")
